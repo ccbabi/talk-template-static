@@ -1,3 +1,4 @@
+/* global $ */
 import './index.less'
 
-console.log('ok')
+console.log($().jquery)

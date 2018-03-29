@@ -9,6 +9,9 @@
     "jquery": "1.x"
   },
   "talk": {
-    "multiple": true
+    "multiple": true,
+    "provide": {
+      "$": "jquery"
+    }
   }
 }
